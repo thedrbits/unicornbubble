@@ -1,0 +1,261 @@
+body {
+  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 3rem;
+  margin-bottom: 15rem;
+}
+
+h1 {
+  opacity: .3;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  letter-spacing: -.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  opacity: .3;
+  font-weight: 100;
+  line-height: 2rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.button {
+  display: inline;
+  padding: 1rem 1.4rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -.04rem;
+  transition: all .2s ease-in-out;
+}
+
+.button:hover {
+  color: rgba(0, 0, 0, 0.4);
+  transition: all .2s ease-in-out;
+}
+
+.appButton img {
+  padding: 1rem 1.4rem;
+  width: 6rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  opacity: .3;
+  transition: all .2s ease-in-out;
+}
+
+.appButton img:hover {
+  opacity: .4;
+  transition: all .2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 5rem;
+  height: auto;
+  display: inline;
+  opacity: .3;
+  transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+  opacity: .4;
+  transition: all .2s ease-in-out;
+}
+
+header .button {
+  float: right;
+  margin-top: 1rem;
+}
+
+.app1 {
+  background: rgba(0, 0, 0, 0.03);
+  background-size: cover;
+  height: 530px;
+}
+
+.appInfo {
+  display: inline;
+  float: left;
+  margin-top: 1rem;
+  padding-right: 15%;
+  width: 55%;
+  overflow: hidden;
+}
+
+.app1 h2 {
+  color: #1485CC;
+}
+
+.app1 p {
+  margin-top: -2rem;
+}
+
+.iphone {
+  float: right;
+  display: inline;
+  width: 30%;
+  margin-top: -8rem;
+  position: relative;
+}
+
+
+/* Medium size Screens (devices and browsers) */
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+		  header {
+  margin-bottom: 10rem;
+}
+	.iphone {
+  margin-top: -3rem;
+}
+	
+}
+
+
+/* Tablet Portrait size to standard 960 ipads (devices and browsers) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	  header {
+  margin-bottom: 5rem;
+}
+
+  h1 {
+	font-size: 1.5rem;
+  }
+  
+  h2 {
+	  font-size: 2.5rem;
+	  line-height: 2rem;
+	  letter-spacing: -.1rem;
+  }
+  
+  p {
+	  font-size: 1rem;
+	  line-height: 1.5rem;
+  }
+  
+  .appInfo {
+  margin-top: 4rem;
+}
+  
+  
+ .app1 {
+  height: 500px;
+}
+
+
+.app1 p {
+  margin-top: -1rem;
+}
+
+.iphone {
+  margin-top: 3rem;
+}
+	
+}
+
+
+/* All Mobile Sizes  iPads (devices and browser) */
+
+@media only screen and (max-width: 767px) {
+	
+  h1 {
+	font-size: 1.5rem;
+  }
+  
+  h2 {
+	  font-size: 2.5rem;
+	  line-height: 2rem;
+	  letter-spacing: -.1rem;
+  }
+  
+  p {
+	  font-size: 1rem;
+	  line-height: 1.5rem;
+  }
+  
+  header {
+  margin-bottom: 5rem;
+}
+  
+  .appInfo {
+  margin-top: 1rem;
+}
+  
+  
+ .app1 {
+  height: 450px;
+}
+
+
+.app1 p {
+  margin-top: -1rem;
+}
+
+.iphone {
+  margin-top: 3rem;
+}
+	
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait iphone (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	 .app1 {
+  height: 500px;
+}
+	
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size iphone (devices and browsers) */
+
+@media only screen and (max-width: 479px) {
+	
+	header{
+		margin-bottom: 3rem;
+	}
+	
+	.app1{
+		height: 850px;
+	}
+	
+	.appInfo{
+		float: none;
+		margin: 2rem 0% 0% 0%;
+		display: block;
+		width: 100%;
+		overflow: hidden;
+		padding: 0;
+	}
+	.iphone{
+		float: none;
+		width: 55%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 2rem;
+	}
+}
